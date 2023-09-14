@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+}
+
+div {
+    border: solid 1px black;    
+}
+
+.blue {
+    background-color: #C6D9F1;
+}
+
+.orange {
+    background-color: #FDE9D9;
+}
+
+.green {
+    background-color: #EAF1DD;
+}
+
+.white {
+    background-color: #FFFFFF;
+}
+
+#grid-container {
+    display: grid;
+    grid-template-columns: 0.2fr 1fr 0.2fr;
+    grid-template-rows: 25% 100px 700px 25%;
+}
+
+#div1 {
+    grid-area: 1 / 1 / 4 / 2;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#div2 {
+    grid-area: 1 / 2 / 2 / 4;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#div3 {
+    grid-area: 2 / 2 / 3 / 3;
+
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+#div4 {
+    grid-area: 2 / 3 / 4 / 4;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#div5 {
+    grid-area: 3 / 2 / 4 / 3;
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+#div6 {
+    grid-area: 4 / 1 / 5 / 4;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text-box {
+    background-color: white;
+    width: 20%;
+    height: 20%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    margin: 0;
+}
+
+.num-div {
+    padding: 20px;
+}
