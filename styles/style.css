@@ -1,7 +1,9 @@
 /* min-width of page */
 body {
     margin: 0;
+    width: 100vw;
     min-width: 575px;
+    overflow-x: hidden;
 }
 
 /* blocks border */
